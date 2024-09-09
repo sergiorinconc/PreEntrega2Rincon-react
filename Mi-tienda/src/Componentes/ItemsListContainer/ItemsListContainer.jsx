@@ -8,7 +8,7 @@ const ItemsListContainer = ({ greeting }) => {
   const [items, setItems] = useState([]);
 
   useEffect(() => {
-    // Simulación de productos con imágenes
+    
     const mockItems = [
       { id: 1, name: 'Producto 1', description: 'Descripción 1', category: 'ropa', image: '/images/producto1.jpg' },
       { id: 2, name: 'Producto 2', description: 'Descripción 2', category: 'electronica', image: '/images/producto2.jpg' },
